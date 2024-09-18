@@ -6,7 +6,7 @@ client = TestClient(app)
 def test_read_root():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == "Pour avoir votre empreinte écologique, allez sur /calculate et renseignez vos informations."
+    assert response.json() == "Welcome to Highcast's baby API."
 
 def test_home_footprint_valid_json():
     response = client.post(
