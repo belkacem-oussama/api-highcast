@@ -20,16 +20,7 @@ Dans votre terminal, exécutez la commande suivante pour cloner le projet depuis
 git clone git@github.com:belkacem-oussama/api-highcast.git
 ```
 
-#### 2. Installer les dépendances.
-
-Accédez au répertoire cloné et installez les dépendances nécessaires :
-
-```
-cd api-highcast
-pip install -r requirements.txt
-```
-
-#### 3. Configurer les variables d'environnement.
+#### 2. Configurer les variables d'environnement.
 
 Créez un fichier .env dans le répertoire racine du projet et ajoutez vos configurations, telles que l'URL de l'API et les clés API.
 
@@ -38,7 +29,7 @@ CARBON_API_URL=<url_de_l_api>
 CARBON_API_KEY=<cle_de_l_api>
 ```
 
-#### 4. Lancer le projet.
+#### 3. Lancer le projet.
 
 Pour exécuter le serveur FastAPI, utilisez cette commande :
 
